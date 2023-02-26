@@ -21,6 +21,7 @@ import { Alert, message, Tabs } from 'antd';
 import React, { useState } from 'react';
 import { flushSync } from 'react-dom';
 import Settings from '../../../../config/defaultSettings';
+// import { mockUser } from '../../../../mock/user';
 
 const ActionIcons = () => {
   const langClassName = useEmotionCss(({ token }) => {
@@ -104,6 +105,7 @@ const Login: React.FC = () => {
 
   const fetchUserInfo = async () => {
     const userInfo = await initialState?.fetchUserInfo?.();
+    // const userInfo = mockUser;
     if (userInfo) {
       flushSync(() => {
         setInitialState((s) => ({
@@ -141,6 +143,22 @@ const Login: React.FC = () => {
       message.error(defaultLoginFailureMessage);
     }
   };
+
+  // const handleSubmit = async () => {
+  //   try {
+  //     await fetchUserInfo();
+  //     const urlParams = new URL(window.location.href).searchParams;
+  //     history.push(urlParams.get('redirect') || '/');
+  //   } catch (error) {
+  //     const defaultLoginFailureMessage = intl.formatMessage({
+  //       id: 'pages.login.failure',
+  //       defaultMessage: '登录失败，请重试！',
+  //     });
+  //     console.log(error);
+  //     message.error(defaultLoginFailureMessage);
+  //   }
+  // };
+
   const { status, type: loginType } = userLoginState;
 
   return (
@@ -180,6 +198,9 @@ const Login: React.FC = () => {
             />,
             <ActionIcons key="icons" />,
           ]}
+          // onFinish={async () => {
+          //   await handleSubmit();
+          // }}
           onFinish={async (values) => {
             await handleSubmit(values as API.LoginParams);
           }}

@@ -24,6 +24,8 @@ export default {
   'menu.list': '列表页',
   'menu.list.table-list': '查询表格',
   'menu.list.user-list': '用户管理',
+  'menu.list.shell-list': '贝壳管理',
+  'menu.list.content-list': '内容审核',
   'menu.list.basic-list': '标准列表',
   'menu.list.card-list': '卡片列表',
   'menu.list.search-list': '搜索列表',
