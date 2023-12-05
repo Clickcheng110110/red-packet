@@ -1,0 +1,17 @@
+{
+  "buy": "Buy",
+  "confirmBuy": "Confirm to Buy",
+  "NFTTrading": "NFT Trading",
+  "mintFragment": "Mint Fragment",
+  "tradingTimeUp": "Trading Time",
+  "tradingTimeDown": "Trading Time",
+  "sellingPriceUp": "Selling Price",
+  "sellingPriceDown": "Selling Price",
+  "price": "Price",
+  "tradingTime": "Trading time",
+  "coldTime": "Cold time",
+  "fee": "Fee",
+  "mint": "Mint",
+  "confirmMint": "Confirm to Mint",
+  "NFTHasBeenPurchased": "This NFT has been purchased"
+}

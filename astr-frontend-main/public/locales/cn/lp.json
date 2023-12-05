@@ -1,0 +1,19 @@
+{
+  "stakeLpToEarnAstr": "质押 LP 赚取 LSC",
+  "TVL": "TVL",
+  "APY": "APY",
+  "pendingRewards": "待领取奖励",
+  "issuedRewards": "已发放奖励",
+  "myAstrUsdtLp": "我的 LSC/USDT LP",
+  "myRewards": "我的奖励",
+  "addLp": "添加 LP",
+  "removeLp": "移除 LP",
+  "Claim": "领取",
+  "lpAmount": "LP 数量",
+  "Balance": "余额",
+  "MAX": "MAX",
+  "approveToAdd": "授权",
+  "removeAmount": "移除数量",
+  "approveToRemove": "授权",
+  "insufficientBalance": "余额不足"
+}

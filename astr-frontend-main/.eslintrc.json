@@ -1,0 +1,12 @@
+{
+  "extends": ["next", "plugin:@typescript-eslint/recommended"],
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "jsx-a11y/alt-text": "off"
+  }
+}

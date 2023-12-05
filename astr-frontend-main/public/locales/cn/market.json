@@ -1,0 +1,17 @@
+{
+  "buy": "购买",
+  "confirmBuy": "确认购买",
+  "NFTTrading": "NFT交易",
+  "mintFragment": "碎片铸造",
+  "tradingTimeUp": "交易时间升序",
+  "tradingTimeDown": "交易时间降序",
+  "sellingPriceUp": "价格升序",
+  "sellingPriceDown": "价格降序",
+  "price": "价格",
+  "tradingTime": "交易时间",
+  "coldTime": "过期时间",
+  "fee": "手续费",
+  "mint": "铸造",
+  "confirmMint": "确认铸造",
+  "NFTHasBeenPurchased": "该NFT已被购买"
+}

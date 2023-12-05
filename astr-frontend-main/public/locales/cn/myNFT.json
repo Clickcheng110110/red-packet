@@ -1,0 +1,15 @@
+{
+  "cancel": "撤单",
+  "sell": "挂单",
+  "Not On Sale": "未挂单",
+  "On Sale": "已挂单",
+  "All of Mine": "我的所有NFT",
+  "split": "拆分",
+  "Set Price": "设 置 售 价",
+  "Price below 1000u, 10% fixed value added Free pricing for prices above 1000u": "价格低于1000u，固定增值10% 价格高于1000u自由定价",
+  "Fee (6%)": "手续费 (6%)",
+  "Confirm to Sell": "确 认 售 卖",
+  "Approve NFT": "授 权 NFT",
+  "Approve LSC": "授 权 LSC",
+  "Sell Price": "售价"
+}

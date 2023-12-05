@@ -1,0 +1,19 @@
+{
+  "stakeLpToEarnAstr": "Stake LP to Earn LSC",
+  "TVL": "TVL",
+  "APY": "APY",
+  "pendingRewards": "Pending Rewards",
+  "issuedRewards": "Issued Rewards",
+  "myAstrUsdtLp": "My LSC/USDT LP",
+  "myRewards": "My Rewards",
+  "addLp": "Stake LP",
+  "removeLp": "UnStake LP",
+  "Claim": "Claim",
+  "lpAmount": "LP Amount",
+  "Balance": "Balance",
+  "MAX": "MAX",
+  "approveToAdd": "Approve to Stake",
+  "removeAmount": "Remove Amount",
+  "approveToRemove": "Approve to UnStake",
+  "insufficientBalance": "Insufficient balance"
+}
